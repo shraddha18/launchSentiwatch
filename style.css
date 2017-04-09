@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -26,14 +26,14 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
     line-height: 1.7;
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6
 {
@@ -58,7 +58,7 @@ a{
     text-decoration: none  !important;
 }
 .section-padding{
-    padding: 80px 0px;
+    padding: 125px 0px;
 }
 p {
     font-size: 15px;
@@ -89,11 +89,11 @@ p {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
-    background-color: #be9e21;
+    background-color: #94D3EC;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #fff;
-    background-color: #be9e21;
+    background-color: #94D3EC;
 }
 .navbar-default .navbar-nav > li > a {
     font-size: 14px;
@@ -106,7 +106,7 @@ p {
 /*****************************************************
 *****************************************************/
 #home {
-    background: url(img/banner.jpg) no-repeat fixed;
+    background: url('img/bg_laptop.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 650px;
     position: relative;
@@ -151,7 +151,7 @@ p {
 .line-block span::before {
     width: 90px;
     height: 2px;
-    background: #be9e21;
+    background: #94D3EC;
     left: -100px;
     top: 6px;
     content: '';
@@ -160,7 +160,7 @@ p {
 .line-block span::after {
     width: 90px;
     height: 2px;
-    background: #be9e21;
+    background: #94D3EC;
     right: -100px;
     top: 6px;
     content: '';
@@ -174,9 +174,10 @@ p {
     margin: 0 8px;
 }
 .btn.btn-primary {
-    border: 1px solid #be9e21;
-    background: #be9e21;
+    border: 1px solid #94D3EC;
+    background: #94D3EC;
     color: #fff;
+
 }
 .btn {
     font-size: 14px;
@@ -196,7 +197,7 @@ p {
     transition: all 0.35s ease-in-out;
 }
 .bottom-arrow i {
-    background: #be9e21 none repeat scroll 0 0;
+    background: #94D3ECnone repeat scroll 0 0;
     color: #fff;
     font-size: 24px;
     height: 40px;
@@ -243,7 +244,7 @@ p {
 .fea-item i {
     font-size: 55px;
     padding: 30px 0;
-    color: #be9e21;
+    color: #94D3EC;
 }
 .features-item__title {
     display: block;
@@ -257,7 +258,7 @@ p {
     margin-bottom: 30px;
 }
 .fil-btn .active {
-    background-color: #be9e21;
+    background-color: #94D3EC;
 }
 .filter {
     background-color: #2C3E50;
@@ -336,7 +337,7 @@ p {
 /*****************************************************
 *****************************************************/
 #contact {
-    background-color: #BE9E21;
+    background-color: #94D3EC;
 }
 #contact .footer-sec h2 {
     font-size: 28px;
